@@ -1,0 +1,287 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* Navigation Bar*/
+#navbar{
+    display:flex;
+    align-items: center;
+    top:0;
+    left:0;
+    position:sticky;
+    padding-bottom: 7px;
+    /* border:2px solid green; */
+}
+
+#navbar::before{
+    content: "";
+    background-color: rgb(14, 11, 11);
+    position:absolute;
+    top:0px;
+    left:0px;
+    height:100%;
+    width:102%;
+    z-index:-1;
+    opacity:0.7;    
+    margin: -8px;     
+}
+
+/*Navigation Bar and Logo*/
+#logo{
+    /* border:2px solid red; */
+    
+   
+}
+
+#logo img{
+    height:65px;
+     
+}
+
+
+/*Navigation Bar: List Styling*/
+#navbar ul{
+    display: flex;
+    /* border: 2px solid blue; */
+}
+
+  
+#navbar ul li{
+      list-style:none;
+      font-size: 1.4em;
+      
+  }
+  
+#navbar ul li a{
+      color: whitesmoke;
+      /* border: 2px solid red; */
+      padding: 3px 3px;
+      margin: 3px 11px;
+      border-radius:15px;
+      display:block;
+      text-decoration:none;
+  }
+
+#navbar ul li a:hover{
+    color:grey;
+    background-color: white;;
+}
+
+/*Home Section*/
+#Home{
+    display:flex;
+    flex-direction:column ;
+    /* border: 2px solid brown; */
+    margin:10px;
+    padding: 50px 140px;
+    height:62vh;
+    
+    /* position: relative; */
+    /* background:url('logos and photos/bg1.jpg') no-repeat center center/cover; */
+}
+
+#Home::before{
+    content:"";
+    position:absolute;
+    background:url('../logo&pics/bg1.jpg') no-repeat center center/cover;
+    z-index:-1;
+    height:560px;
+    width: 100vw;
+    left: 0;
+    top: 0;
+    opacity:0.5;
+}
+
+#Home h1{
+    /* border: 2px solid brown; */
+    font-size: 3.6rem;
+    text-align:center;
+    margin:25px;
+}
+
+#Home p{
+    font-size: 1.5rem;
+    /* border: 2px solid brown; */
+    margin:5px;
+    text-align:center;
+}
+
+.btn{
+    width:180px;
+    border-radius: 40px;
+    display: block;
+    margin: 15px auto;
+    padding: 8px;
+    font-size: 1.4rem;
+}
+
+.btn:hover{
+    color:grey;
+    cursor:pointer;
+    
+}
+
+
+
+/*Services Section*/
+#Services-Container h2{
+    font-size: 2.5rem;
+    text-align: center; 
+}
+
+#Services{
+    display: flex;
+    margin:0;
+}
+
+#Services-Container .box{
+    display:inline-block;
+    margin: 19px;
+    padding:0px;
+    border:2px solid red;
+    border-radius:50px ;
+    background-color: rgb(251, 246, 237);
+    width:30%;
+
+}
+
+#Services img{
+    
+    position:relative;
+    width: 121px;
+    height: 87px;
+    display: block;
+    margin: auto;
+    margin-top: 21px;
+    border-radius: 20px;
+}
+
+
+#Services h3{   
+    text-align:center;
+    /* border: 2px solid green; */
+} 
+
+#Services p{
+    text-align: center;
+}
+
+/*Client section*/
+
+
+#Client-section::before{
+    content:"";
+    position: absolute;
+    background: url('../logo&pics/tomato-2780424_1280.jpg') no-repeat center center/cover;
+    opacity:1;
+    width: 100vw;
+
+}
+
+#Client-Section h2{
+    font-size: 2.5rem;
+    text-align: center; 
+}
+
+#Clients{
+  display:flex;
+  /* border:2px solid red; */
+  justify-content: center;
+  align-items: center;
+}
+
+.Client-item{
+    display:inline-block;
+    padding:31px;
+    /* border: 2px solid black; */
+}
+
+#facebook{
+    height: 69px;
+    width: 79px;
+}
+
+#paypal{
+    height: 94px;
+    width: 148px;
+}
+
+#microsoft{
+    height: 109px;
+    width: 186px;
+}
+
+
+#insta{
+    height: 99px;
+    width: 117px;
+}
+
+#youtube{
+    height: 72px;
+    width: 129px;
+    padding: 5px 8px;
+}
+
+/*Contact*/
+#Contact h2{
+    font-size: 2.5rem;
+    text-align: center; 
+}
+
+.form-group{
+    /* border:2px solid blue; */
+    text-align:center;
+    padding: 13px;
+}
+
+.form-group label{
+    display: block;
+    text-align: left;
+    padding-left: 391px;
+    padding-bottom: 8px;
+}
+
+.form-group input, textarea{
+    width: 359px;
+    padding: 7px;
+}
+
+submit{
+    border: 2px solid black;
+    border-radius: 100px;
+    padding-inline: 45px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    font-size: 1.3rem;
+    background-color: aqua;
+}
+
+submit:hover{
+    cursor: pointer;
+    opacity:0.5;
+    font-weight: bold;
+}
+
+#Contact{
+    background-color: rgb(203, 247, 247);
+    height:631px;
+}
+
+.center{
+    text-align: center;
+}
+
+footer{
+    margin-top: 0px;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
